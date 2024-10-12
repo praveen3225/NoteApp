@@ -1,0 +1,179 @@
+
+
+.customNavbar{
+    background: linear-gradient(45deg, #C33764,#1D2671, #C33764);  
+    width: 100%;
+  }
+  @keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.title-align{
+  text-align: center;
+  flex-grow: 1;
+  color: white;
+  font-family: charm;
+  font-size: 40px;
+}
+
+body{
+  background: radial-gradient(#FFC371,#FF5F6D );
+  background-size: cover;          /* Ensures the gradient covers the entire body */
+  height: 100vh;                   /* Ensures the body takes up at least the full viewport height */
+  margin: 0; 
+}
+
+.button-style{
+  background-color: white;
+  color: black;
+  border-radius:30px;
+}
+
+.button-position{
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.footerBottom{
+  margin-top: auto;
+}
+
+.card-form-container {
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 35px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.card-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #555;
+}
+
+.form-input,
+.form-textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.form-input:focus,
+.form-textarea:focus {
+  outline: none;
+  border-color: #ff0000;
+  box-shadow: 0 0 5px #ad0000ab;
+}
+
+.form-textarea {
+  height: 100px;
+  resize: none;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.form-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-button:hover {
+  background-color: #0056b3;
+}
+
+.welcome-container{
+
+    background: linear-gradient(#649173,#DBD5A4);
+    width: 800px;
+    height: 500px;
+    border-radius: 20px;
+    border-color: #ff0000;
+    box-shadow: 0 0 5px #ad0000ab;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:25px;
+}
+.welcome-container-placement{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+.card-template-buttons-placement{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.welcome-container h3{
+  padding: 50px;
+  background: linear-gradient(180deg, #ED1E79,#471865); /* Define your gradient colors */
+  -webkit-background-clip: text; /* Clip the background to the text */
+  -webkit-text-fill-color: transparent;
+}
+
+
+.card-container {
+  display: flex;
+  flex-direction: column; /* Align content vertically */
+  min-height: 90vh; /* Make sure it takes the full screen height */
+}
+
+.card-content {
+  display: flex;
+  flex-wrap: wrap; /* Allow the cards to wrap to new lines */
+  justify-content: center; /* Center cards horizontally */
+  flex-grow: 1; /* Allow the content area to expand and push the button down */
+}
+
+.button-container {
+  margin-top: auto; /* Push this div to the bottom */
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.button-container .btn {
+  padding: 10px 20px;
+  font-size: 16px;
+}
